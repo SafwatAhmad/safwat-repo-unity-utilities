@@ -36,39 +36,39 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Weapons\Types\RPG.cs" />
-     <Compile Include="Assets\Scripts\PickOrDump\Audio\AudioManager.cs" />
-     <Compile Include="Assets\Scripts\Essentials\InputManager.cs" />
-     <Compile Include="Assets\Scripts\Tools\iTween\iTween.cs" />
-     <Compile Include="Assets\Scripts\Essentials\SpinAround.cs" />
-     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Weapons\Types\HMG.cs" />
-     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Weapons\Types\Sniper.cs" />
-     <Compile Include="Assets\Scripts\Essentials\CinematicFocusOnTarget.cs" />
-     <Compile Include="Assets\Scripts\Essentials\GeneralUtilities.cs" />
-     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Projectiles\Types\Bullet.cs" />
-     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Projectiles\AbstractProjectile.cs" />
-     <Compile Include="Assets\Scripts\Essentials\RotationHandler.cs" />
+     <Compile Include="Assets\Scripts\PickOrDump\Currency\CurrencyManager.cs" />
      <Compile Include="Assets\Scripts\Tools\SafeArea\SafeAreaScript.cs" />
+     <Compile Include="Assets\Scripts\Tools\FpsCounter\Scripts\SC_FPSCounter.cs" />
+     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Weapons\Types\RPG.cs" />
+     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Projectiles\AbstractProjectile.cs" />
      <Compile Include="Assets\Scripts\Figure Next\RewardBurstAnimation.cs" />
      <Compile Include="Assets\Scripts\Essentials\DisableOrDestroy.cs" />
-     <Compile Include="Assets\Scripts\Tools\EasyAnchors\RectTransformContextMenu.cs" />
      <Compile Include="Assets\Scripts\PickOrDump\IK.cs" />
-     <Compile Include="Assets\Scripts\Essentials\ApplicationSettings.cs" />
-     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Projectiles\Types\Shell.cs" />
+     <Compile Include="Assets\Scripts\Essentials\SpinAround.cs" />
+     <Compile Include="Assets\Scripts\PickOrDump\Audio\AudioManager.cs" />
+     <Compile Include="Assets\Scripts\Tools\iTween\iTween.cs" />
+     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Weapons\Types\Sniper.cs" />
+     <Compile Include="Assets\Scripts\Essentials\CinematicFocusOnTarget.cs" />
      <Compile Include="Assets\Scripts\Figure Next\Player.cs" />
-     <Compile Include="Assets\Scripts\Figure Next\TouchFX.cs" />
-     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Weapons\Weapon.cs" />
-     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Weapons\Types\LMG.cs" />
      <Compile Include="Assets\Scripts\Essentials\DestroyOnAnimationComplete.cs" />
      <Compile Include="Assets\Scripts\Figure Next\PathFollowAnimator.cs" />
      <Compile Include="Assets\Scripts\Figure Next\CameraHolderController.cs" />
-     <Compile Include="Assets\Scripts\Tools\FpsCounter\Scripts\SC_FPSCounter.cs" />
-     <Compile Include="Assets\Scripts\PickOrDump\Currency\CurrencyManager.cs" />
      <Compile Include="Assets\Scripts\Figure Next\Crosshair.cs" />
+     <Compile Include="Assets\Scripts\Tools\EasyAnchors\RectTransformContextMenu.cs" />
+     <Compile Include="Assets\Scripts\Essentials\ApplicationSettings.cs" />
+     <Compile Include="Assets\Scripts\Essentials\CameraCorrecter.cs" />
+     <Compile Include="Assets\Scripts\Essentials\RotationHandler.cs" />
+     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Projectiles\Types\Shell.cs" />
+     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Weapons\Weapon.cs" />
+     <Compile Include="Assets\Scripts\Essentials\InputManager.cs" />
+     <Compile Include="Assets\Scripts\Essentials\GeneralUtilities.cs" />
+     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Projectiles\Types\Bullet.cs" />
+     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Weapons\Types\LMG.cs" />
      <Compile Include="Assets\Scripts\Essentials\ColorLerper.cs" />
+     <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Weapons\Types\HMG.cs" />
+     <Compile Include="Assets\Scripts\Figure Next\TouchFX.cs" />
      <Compile Include="Assets\Scripts\PickOrDump\Weapon System\Projectiles\InteractionInterfaces.cs" />
      <Compile Include="Assets\Scripts\Figure Next\HelicopterMovement.cs" />
-     <Compile Include="Assets\Scripts\Essentials\CameraCorrecter.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.11f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

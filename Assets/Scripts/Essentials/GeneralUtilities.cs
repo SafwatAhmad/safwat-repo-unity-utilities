@@ -1,12 +1,15 @@
 using System;
 using UnityEngine;
 using System.Linq;
+using Random = System.Random;
 using System.Collections.Generic;
 
 namespace Safwat.Essentials
 {
-    public class GeneralUtilities
+    public /* static */ class GeneralUtilities
     {
+        public static Random rand = new();
+
         //Method to convert string to an enum entry
         public static T StringToEnum<T>(string str) where T : Enum => (T)Enum.Parse(typeof(T), str);
 
@@ -23,10 +26,32 @@ namespace Safwat.Essentials
         public static T MinValue<T>(T[] array) where T : IComparable<T> => array.Min();
 
         //Method to reverse a string
-        public static string ReverseString(string str) => new string(str.Reverse().ToArray());
+        public static string ReverseString(string str) => new(str.Reverse().ToArray());
 
         //Method to convert a list to a comma-separated string
         public static string ListToString<T>(List<T> list) => string.Join(", ", list);
+
+        public static T[] FisherYatesShuffle<T>(T[] array)
+        {
+            int p = array.Length;
+            for (int n = p - 1; n > 0; n--)
+            {
+                int r = rand.Next(0, n);
+                (array[n], array[r]) = (array[r], array[n]);
+            }
+            return array;
+        }
+
+        public static List<T> FisherYatesShuffle<T>(List<T> list)
+        {
+            int p = list.Count;
+            for (int n = p - 1; n > 0; n--)
+            {
+                int r = rand.Next(0, n);
+                (list[n], list[r]) = (list[r], list[n]);
+            }
+            return list;
+        }
     }
 
     /////////////////////////////////////////////////
@@ -52,4 +77,6 @@ namespace Safwat.Essentials
 
         public void Return(T obj) => pool.Enqueue(obj);
     }
+    /////////////////////////////////////////////////
+    /////////////////////////////////////////////////
 }
